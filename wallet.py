@@ -1,15 +1,42 @@
 class Wallet:
     def __init__(self, balance):
+        """
+        Initialisation of Wallet class
+
+        Args:
+            balance (float): The first number.
+        """
         self.balance = balance
 
     def set_balance(self, val):
-        # Add val to balance
+        """
+        Adds a value to balance
+
+        Args:
+            val (float): Value to be added to balance.
+
+        Returns:
+            float: The addition of balance and val
+        """
         self.balance = self.balance + val
 
     def get_balance(self):
-        # Get balance
+        """
+        Returns the balance
+
+        Returns:
+            float: The balance
+        """
         return self.balance
 
     def remove_balance(self, val):
-        # Remove val from balance
+        """
+        Substracts a value from balance
+
+        Args:
+            val (float): Value to be substracted from balance.
+
+        Returns:
+            float: The substraction of balance and val
+        """
         self.balance = self.balance - val
