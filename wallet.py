@@ -1,3 +1,5 @@
+"""Module providing a class for managing a wallet."""
+
 class Wallet:
     """
     A class representing a wallet.
@@ -5,7 +7,7 @@ class Wallet:
     Attributes:
         balance (float): The balance in the wallet.
     """
-    
+
     def __init__(self, balance):
         """
         Initialisation of Wallet class
